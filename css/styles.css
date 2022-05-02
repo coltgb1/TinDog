@@ -1,0 +1,171 @@
+/**************ELEMENT SELECTORS***********/
+body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat", sans-serif;
+  font-weight:bold;
+}
+
+/*************CLASS SELECTORS*************/
+.big-heading{
+  color:#fff;
+  font-size:3.5rem;
+  line-height:1.5;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.container-fluid{
+  padding:7% 15%;
+}
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
+}
+
+.copyright{
+  color:gray;
+}
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+.feature-title{
+  font-size:1.5rem;
+  padding: 8px 0;
+}
+
+.features-column{
+  padding:5%;
+  text-align: center;
+}
+
+.features-icon{
+  color:#ef8172;
+  padding-bottom: 1rem;
+  transition-duration:.2s;
+  transition-property:color;
+}
+
+.features-icon:hover{
+  color:#ff4c68;
+  transition-duration: .2s;
+}
+
+.features-paragraph{
+  color:#8f8f8f;
+}
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size:2.5rem;
+  font-weight:bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family:"Montserrat-Light", sans-serif;
+  font-size: 1.2rem;
+}
+
+.press-logo{
+  margin:20px 20px 50px;
+  width:15%;
+}
+
+.price-text{
+  font-size:3rem;
+  line-height:1.5;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.social-icon{
+  padding:20px 10px;
+}
+
+.testimonials-image{
+  border-radius:50%;
+  margin:20px;
+  width:10%;
+}
+
+.testimonial-text{
+  font-size:3rem;
+  line-height:1.5;
+}
+
+.title-image{
+  position:absolute;
+  right:30%;
+  transform:rotate(25deg);
+  width:60%;
+}
+
+.title-image-div{
+  position:relative;
+}
+
+.white-section{
+  background-color: #fff;
+}
+/*************ID SELECTORS****************/
+
+#features{
+  position:relative;
+}
+
+#footer{
+  background-color:#fff;
+}
+
+#press{
+  background-color:#ef8172;
+  padding-bottom:3%;
+}
+
+#pricing{
+  padding: 100px;
+
+}
+
+#testimonials{
+  background-color:#ef8172;
+}
+
+@media (max-width: 991px){
+  #title{
+    text-align: center;
+  }
+
+  .title-cta{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform:rotate(0);
+  }
+}
